@@ -1,10 +1,9 @@
 import React, { useContext } from 'react';
-import { counterContext } from './COUNTER_CONTEXT';
+import counterContext from './COUNTER_CONTEXT';
 import './App.css';
 
 export default function Child()
 {
-    // console.log('VALUE IS: ' + useContext(GlobalProvider));
     let childCounterValue = useContext(counterContext);
     // console.log(childCounterValue);
     return (

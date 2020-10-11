@@ -1,4 +1,4 @@
-const counterReducer = (state, action) =>
+export default (state, action) =>
 {
     switch (action)
     {
@@ -10,5 +10,3 @@ const counterReducer = (state, action) =>
             return 0;
     }
 }
-
-export default counterReducer;
